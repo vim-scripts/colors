@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1444
+
+Rgb2Hsv - change RGB into HSV colorspace
+Hsv2Rgb - change HSV into RGB colorspace
+
+r, g, b [0..255]
+h [0..359]
+s, v [0..255] sic!
+
+Hex2Rgb - change Hex notation (#ffffff) into rgb [255,255,255]
+Rgb2Hex - change RGB notation into Hex notation
+Txt2Rgb - change text names of functions into RGB notation (names according to rgb.txt of X consortium)
+
+In addition there is function ColorFormula which will tell if brightness and
+color differences are good enough (according to W3C) to became background and text colors.
+Good for testing colorschemes on HTML sites and Vim.
+
